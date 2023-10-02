@@ -19,18 +19,21 @@
         The test will begin on the word start. On your mark, get ready, start. </p>
         <nav>   
             <button id="startQuizButton"> Let's Begin!</button>
-            <button id="rankings"> Rankings</button>
+            <button id="rankingsButton"> Rankings</button>
         </nav>     
     </header>
     <main>
-        <section class="quizProper">
-            <aside>
+        <section class="quizDisplay">
+            <aside id="timerDisplay">
                 <h3 id="timer"></h3>
+                <h4 id="timerBlurb"> Seconds Remain!</h4>
+            </aside>
+            <aside id="scoreDisplay">
                 <h3 id="score"></h3>
             </aside>
             <h2></h2>
             <section class="questionMaster">
-                <h1 id="questionProper"></h1>
+                <h1 id="questionDisplay"></h1>
                 <button class="questionAnswer" id="b0">a</button>
                 <button class="questionAnswer" id="b1">a</button>
                 <button class="questionAnswer" id="b2">a</button>
