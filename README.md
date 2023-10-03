@@ -1,6 +1,6 @@
 # Cian-TestYourKnowledge
 A quiz for those who want to to brush up on their coding knowledge.
-TODO: High score display and local storage. CSS for page so it doesn't look like garbage. Update readme and comment code.
+# TODO: High score display and local storage. CSS for page so it doesn't look like garbage. Update readme and comment code.
 
 # 04 Web APIs: Code Quiz
 
