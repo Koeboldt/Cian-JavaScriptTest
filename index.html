@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cian's JS quiz!</title>
     <link rel="stylesheet" type="text/css" href="./assets/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
 </head>
 <body>
     <header>
         <h1> Javascript Quiz</h1>
-        <p>how this works:The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. 
+        <p id="instructions">how this works:The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. 
         The 20 meter pacer test will begin in 30 seconds. Line up at the start.
         The running speed starts slowly, but gets faster each minute after you hear this signal.
         [beep] A single lap should be completed each time you hear this sound. 
@@ -26,19 +26,24 @@
         <section class="quizDisplay">
             <aside id="timerDisplay">
                 <h3 id="timer"></h3>
-                <h4 id="timerBlurb"> Seconds Remain!</h4>
+                <h4 id="timerBlurb"></h4>
             </aside>
             <aside id="scoreDisplay">
                 <h3 id="score"></h3>
             </aside>
-            <h2></h2>
             <section class="questionMaster">
                 <h1 id="questionDisplay"></h1>
-                <button class="questionAnswer" id="b0">a</button>
-                <button class="questionAnswer" id="b1">a</button>
-                <button class="questionAnswer" id="b2">a</button>
-                <button class="questionAnswer" id="b3">a</button>
+                <button class="questionAnswer" id="b0"></button>
+                <button class="questionAnswer" id="b1"></button>
+                <button class="questionAnswer" id="b2"></button>
+                <button class="questionAnswer" id="b3"></button>
             </section>
+            <div id="rankingMaster">
+                <form id="userData">
+                    <input type="text" id="userName" name="username"/>
+                    <input type="submit"/>
+                </form>
+            </div>
         </section>
     </main>
     <script src="./assets/script.js"></script>
