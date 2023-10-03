@@ -2,6 +2,8 @@
 A quiz for those who want to to brush up on their coding knowledge.
 # TODO: High score display and local storage. CSS for page so it doesn't look like garbage. Update readme and comment code.
 
+## sources for some code: my fellow student Matt Knudson for some assistance in getting the questions working properly. https://www.sitepoint.com/simple-javascript-quiz/ for the question arrays.
+
 # 04 Web APIs: Code Quiz
 
 ## Your Task
